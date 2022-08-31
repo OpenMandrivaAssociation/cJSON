@@ -9,11 +9,12 @@
 Summary: Ultralightweight JSON parser in ANSI C
 Name:    cjson
 Version: 1.7.15
-Release: %mkrel 1
+Release: %mkrel 2
 License: MIT
 Group:   System/Libraries
 URL:     %{gitbase}/%{upstream}/%{realname}
 Source0: %{gitbase}/%{upstream}/%{realname}/archive/refs/tags/v%{version}.tar.gz
+Patch0:  feat-add-cJSON_GetErrorPos.patch
 
 BuildRequires: cmake
 
