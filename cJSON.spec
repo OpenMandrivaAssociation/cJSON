@@ -4,8 +4,8 @@
 
 Summary:	Ultralightweight JSON parser in ANSI C
 Name:		cjson
-Version:	1.7.15
-Release:	4
+Version:	1.7.16
+Release:	1
 License:	MIT
 Group:		System/Libraries
 URL:		https://github.com/DaveGamble/cJSON
