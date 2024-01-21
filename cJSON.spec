@@ -9,7 +9,7 @@ Release:	1
 License:	MIT
 Group:		System/Libraries
 URL:		https://github.com/DaveGamble/cJSON
-Source0:	%{url}/archive/refs/tags/v%{version}.tar.gz
+Source0:	%{url}/archive/refs/tags/v%{version}/cJSON-%{version}.tar.gz
 Patch0:		feat-add-cJSON_GetErrorPos.patch
 
 BuildRequires:	cmake
