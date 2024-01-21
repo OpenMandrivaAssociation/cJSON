@@ -1,5 +1,6 @@
 %define major 1
-%define libname %mklibname %{name} %{major}
+%define libname %mklibname %{name}
+%define oldlibname %mklibname %{name} 1
 %define devname %mklibname %{name} -d
 
 Summary:	Ultralightweight JSON parser in ANSI C
@@ -25,6 +26,7 @@ legwork as it can, but not get in your way.
 %package -n %{libname}
 Summary:	%{summary}
 Group:		%{group}
+%rename %{oldlibname}
 Provides:	%{name} = %{version}-%{release}
 
 %description -n %{libname}
