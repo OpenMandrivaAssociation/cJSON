@@ -5,7 +5,7 @@
 
 Summary:	Ultralightweight JSON parser in ANSI C
 Name:		cjson
-Version:	1.7.17
+Version:	1.7.18
 Release:	1
 License:	MIT
 Group:		System/Libraries
