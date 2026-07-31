@@ -5,7 +5,7 @@
 
 Summary:	Ultralightweight JSON parser in ANSI C
 Name:		cjson
-Version:	1.7.18
+Version:	1.7.19
 Release:	1
 License:	MIT
 Group:		System/Libraries
@@ -43,7 +43,7 @@ This package contains the %{realname} development
 headers and libraries.
 
 %prep
-%autosetup -p1 -n cJSON-%{version}
+%autosetup -p1 -n cJSON-1.7.19
 
 %build
 %cmake \
